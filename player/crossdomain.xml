@@ -1,0 +1,5 @@
+<cross-domain-policy>
+<allow-access-from domain="*.clip.vn" />
+<allow-access-from domain="*.dropboxusercontent.com" />
+<allow-access-from domain="*.dropbox.com" />
+</cross-domain-policy>

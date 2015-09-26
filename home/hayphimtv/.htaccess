@@ -1,0 +1,47 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+RewriteRule ^vantoan/(.*)$ vantoan/$1 [L]
+RewriteRule ^sitemap.xml$ sitemap.php [L]
+RewriteRule ^rss(.*)$ rss.php [L]
+RewriteRule ^uploads - [L,NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ $1/ [L,R=301]
+RewriteRule ^(.*)/$ index.php [L]
+</IfModule>
+<ifModule mod_headers.c>
+    Header set Access-Control-Allow-Origin: *
+</ifModule>
+
+redirect 301 /the-loai/phim-18/ /search/phim-18/
+redirect 301 /the-loai/phim-18/ /search/phim-18/
+redirect 301 /the-loai/hanh-dong/ /the-loai/phim-hanh-dong/
+redirect 301 /the-loai/tinh-cam/ /the-loai/phim-tinh-cam/
+redirect 301 /the-loai/hai-huoc/ /the-loai/phim-hai-huoc/
+redirect 301 /the-loai/co-trang/ /the-loai/phim-co-trang/
+redirect 301 /the-loai/kiem-hiep/ /the-loai/phim-kiem-hiep/
+redirect 301 /the-loai/khoa-hoc/ /the-loai/phim-khoa-hoc/
+redirect 301 /the-loai/ma-kinh-di/ /the-loai/phim-ma-kinh-di/
+redirect 301 /the-loai/am-nhac/ /the-loai/phim-am-nhac/
+redirect 301 /the-loai/than-thoai/ /the-loai/phim-than-thoai/
+redirect 301 /the-loai/vo-thuat/ /the-loai/phim-vo-thuat/
+redirect 301 /the-loai/hoat-hinh/ /the-loai/phim-hoat-hinh/
+redirect 301 /the-loai/vien-tuong/ /the-loai/phim-vien-tuong/
+redirect 301 /the-loai/phieu-luu/ /the-loai/phim-phieu-luu/
+redirect 301 /the-loai/tam-ly/ /the-loai/phim-tam-ly/
+redirect 301 /the-loai/hinh-su/ /the-loai/phim-hinh-su/
+redirect 301 /the-loai/chien-tranh/ /the-loai/phim-chien-tranh/
+redirect 301 /the-loai/the-thao/ /the-loai/phim-the-thao/
+redirect 301 /quoc-gia/viet-nam/ /quoc-gia/phim-viet-nam/
+redirect 301 /quoc-gia/han-quoc/ /quoc-gia/phim-han-quoc/
+redirect 301 /quoc-gia/au-my/ /quoc-gia/phim-au-my/
+redirect 301 /quoc-gia/dai-loan/ /quoc-gia/phim-dai-loan/
+redirect 301 /quoc-gia/hong-kong/ /quoc-gia/phim-hong-kong/
+redirect 301 /quoc-gia/trung-quoc/ /quoc-gia/phim-trung-quoc/
+redirect 301 /quoc-gia/nhat-ban/ /quoc-gia/phim-nhat-ban/
+redirect 301 /quoc-gia/thai-lan/ /quoc-gia/phim-thai-lan/
+redirect 301 /quoc-gia/phim-khac/ /quoc-gia/phim-tong-hop/
+redirect 301 /quoc-gia/an-do/ /quoc-gia/phim-an-do/
+redirect 301 /the-loai/kinh-di/ /the-loai/phim-ma-kinh-di/

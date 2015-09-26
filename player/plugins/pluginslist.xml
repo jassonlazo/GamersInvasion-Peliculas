@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pluginlist loading="Đang load phim ...Các bạn chờ chút! Nếu không play được hãy F5 vài lần nhé!">
+	<plugins url="http://nuiphim.com/gkplugins/gkplugins_picasaweb/plugins/license.swf?embedallow=*"/>
+	<plugins url="gkplugins_clipvn.swf?boxmenu=true&quality=480p&outcolor=0xFF0000&overcolor=0x00FF00&bgcolor=0x0000FF&bgalpha=30&bgborder=0xFFFFFF"/>
+	<plugins url="gkplugins_youtube.swf?boxmenu=true&quality=480p&outcolor=0xFF0000&overcolor=0x00FF00&bgcolor=0x0000FF&bgalpha=30&bgborder=0xFFFFFF"/>
+	<plugins url="gkplugins_nhaccuatui.swf?boxmenu=true&quality=480p&outcolor=0xFF0000&overcolor=0x00FF00&bgcolor=0x0000FF&bgalpha=30&bgborder=0xFFFFFF"/>
+	<plugins url="gkplugins_picasaweb.swf?php=1&boxmenu=true&outcolor=0xFF0000&overcolor=0x00FF00&bgcolor=0x0000FF&bgalpha=30&bgborder=0xFFFFFF"/>
+	<plugins url="gkplugins_zingvn.swf?boxmenu=true&quality=480p&outcolor=0xFF0000&overcolor=0x00FF00&bgcolor=0x0000FF&bgalpha=30&bgborder=0xFFFFFF"/>
+	<plugins url="gkplugins_docsgoogle.swf?php=1&boxmenu=true&outcolor=0xFF0000&overcolor=0x00FF00&bgcolor=0x0000FF&bgalpha=30&bgborder=0xFFFFFF"/>
+	<plugins url="gkplugins_plusgoogle.swf?boxmenu=true&outcolor=0xFF0000&overcolor=0x00FF00&bgcolor=0x0000FF&bgalpha=30&bgborder=0xFFFFFF"/>
+	<plugins url="gkplugins_putlocker.swf?boxmenu=true&quality=SD"/>
+</pluginlist>

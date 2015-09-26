@@ -1,0 +1,29 @@
+<cross-domain-policy>
+<allow-access-from domain="*"/>
+<allow-access-from domain="*.vidxden.com" />
+<allow-access-from domain="*.2shared.com" />
+<allow-access-from domain="*.4shared.com" />
+<allow-access-from domain="*.loombo.com"/>
+<allow-access-from domain="*.xixam.com"/>
+<allow-access-from domain="*.youtube.com"/>
+<allow-access-from domain="*.dailymotion.com"/>
+<allow-access-from domain="*.sockshare.com"/>
+<allow-access-from domain="*.putlocker.com"/>
+<allow-access-from domain="*.vidxden.com"/>
+<allow-access-from domain="*.movreel.com" />
+<allow-access-from domain="*.divxstage.eu" />
+<allow-access-from domain="*.divxstage.net" />
+<allow-access-from domain="*.mediafire.com" />
+<allow-access-from domain="*.novamov.com" />
+<allow-access-from domain="*.videoweed.es" />
+<allow-access-from domain="*.movshare.com" />
+<allow-access-from domain="*.clip.vn" />
+<allow-access-from domain="*.hulkshare.com" />
+<allow-access-from domain="*.twitvid.com" />
+<allow-access-from domain="*.pubvn.net" />
+<allow-access-from domain="*.google.com" />
+<allow-access-from domain="*.cloudfront.net" />
+<allow-access-from domain="*.rapidvideo.com" />
+<allow-access-from domain="*.vuihd.com" />
+<Access-Control-Allow-Origin: http://saved-media.com />
+</cross-domain-policy>

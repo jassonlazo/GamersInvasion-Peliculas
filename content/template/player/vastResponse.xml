@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<VAST version="2.0">
+  <Ad id="static">
+    <InLine>
+      <AdSystem>Static VAST Template</AdSystem>
+      <AdTitle>Static VAST Tag</AdTitle>
+      <Impression>http://demo.jwplayer.com/player-demos/assets/banner-300x250.jpg</Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:08</Duration>
+            <TrackingEvents>
+              <Tracking event="start">http://demo.jwplayer.com/player-demos/assets/banner-300x250.jpg</Tracking>
+              <Tracking event="firstQuartile">http://demo.jwplayer.com/player-demos/assets/banner-300x250.jpg</Tracking>
+              <Tracking event="midpoint">http://demo.jwplayer.com/player-demos/assets/banner-300x250.jpg</Tracking>
+              <Tracking event="thirdQuartile">http://demo.jwplayer.com/player-demos/assets/banner-300x250.jpg</Tracking>
+              <Tracking event="complete">http://demo.jwplayer.com/player-demos/assets/banner-300x250.jpg</Tracking>
+              <Tracking event="pause">http://demo.jwplayer.com/player-demos/assets/banner-300x250.jpg</Tracking>
+              <Tracking event="mute">http://demo.jwplayer.com/player-demos/assets/banner-300x250.jpg</Tracking>
+              <Tracking event="fullscreen">http://demo.jwplayer.com/player-demos/assets/banner-300x250.jpg</Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough>http://www.phim-vn.com/</ClickThrough>
+              <ClickTracking>http://demo.jwplayer.com/player-demos/assets/banner-300x250.jpg</ClickTracking>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile type="video/mp4" bitrate="300" width="480" height="270">
+                http://saved-media.com/jw/ads.mp4
+              </MediaFile>
+            </MediaFiles>
+           </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
